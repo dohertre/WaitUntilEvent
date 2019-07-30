@@ -5,11 +5,12 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
          their colleagues and Rebekah Doherty.
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
+import math
 
 def main():
     """ TESTs the functions in this module (by calling them). """
-    double_a_float()
-    print_an_integer_many_times()
+    # double_a_float()
+    # print_an_integer_many_times()
     print_an_integer_many_times_on_one_row()
     input_it_all()
 
@@ -98,8 +99,8 @@ def print_an_integer_many_times_on_one_row():
     x = int(input(msg))
     y = x * 2
     for k in range(x):
-        for j in range(k):
-            print(y, end='')
+        print(y, end='')
+
 
 def input_it_all():
     """
@@ -133,11 +134,25 @@ def input_it_all():
          Peace & Love.
     """
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+    msg1 = 'Enter a Floating Point Number'
+    x1 = float(input(msg1))
 
+    msg2 = 'Emter a Positive Integer'
+    x2 = int(input(msg2))
 
+    msg3 = 'Enter a String'
+    x3 = str(input(msg3))
+
+    y = math.sqrt(x1)
+    z = int(x1)
+    for k in range(z):
+        print(y, end='')
+
+    for h in range(x2):
+        print(x3, end='')
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
