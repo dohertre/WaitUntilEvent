@@ -30,10 +30,13 @@ def double_a_float():
          -6.28
     """
     # ------------------------------------------------------------------
-    # TODO: 2. Implement and test this function.
+    # DONE: 2. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
-
+    msg = 'Enter a Floating Point Number'
+    x = float(input(msg))
+    y = x * 2
+    print(y)
 
 def print_an_integer_many_times():
     """
