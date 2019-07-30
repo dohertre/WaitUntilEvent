@@ -65,7 +65,7 @@ def print_an_integer_many_times():
          10
     """
     # ------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
     msg = 'Enter an Integer'
@@ -88,13 +88,18 @@ def print_an_integer_many_times_on_one_row():
          1010101010
     """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement and test this function.
+    # DONE: 4. Implement and test this function.
     #   The testing code is already written for you (above).
     #
     # HINT: One way to print on a SINGLE line is to build up a string
     #       and then print that (single) string.
     # ------------------------------------------------------------------
-
+    msg = 'Enter an Integer'
+    x = int(input(msg))
+    y = x * 2
+    for k in range(x):
+        for j in range(k):
+            print(y, end='')
 
 def input_it_all():
     """
