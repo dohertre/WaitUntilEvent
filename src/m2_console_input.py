@@ -38,6 +38,7 @@ def double_a_float():
     y = x * 2
     print(y)
 
+
 def print_an_integer_many_times():
     """
     What comes in: Nothing.
@@ -67,6 +68,10 @@ def print_an_integer_many_times():
     # TODO: 3. Implement and test this function.
     #   The testing code is already written for you (above).
     # ------------------------------------------------------------------
+    msg = 'Enter an Integer'
+    x = int(input(msg))
+    y = x * 2
+    print(y)
 
 
 def print_an_integer_many_times_on_one_row():
